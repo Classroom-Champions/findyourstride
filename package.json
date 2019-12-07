@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "npm run build && surge dist"
   },
   "dependencies": {
     "core-js": "^3.4.3",
@@ -16,9 +17,17 @@
     "@vue/cli-plugin-eslint": "^4.1.0",
     "@vue/cli-service": "^4.1.0",
     "babel-eslint": "^10.0.3",
+    "copy-webpack-plugin": "^5.0.5",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "git-scripts": "0.2.1",
+    "surge": "latest",
     "vue-template-compiler": "^2.6.10"
+  },
+  "git": {
+    "scripts": {
+      "pre-push": "npm run deploy"
+    }
   },
   "eslintConfig": {
     "root": true,
