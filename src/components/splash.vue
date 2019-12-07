@@ -1,13 +1,11 @@
 <template>
-    <H1>Classroom Champions Splash!</H1>
+  <H1>Classroom Champions Splash!!</H1>
 </template>
 
 <script>
-    export default {
-        name: "Splash"
-    }
+export default {
+  name: "Splash"
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
