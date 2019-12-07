@@ -35,6 +35,5 @@ export default {
 
 <style>
 @import './assets/foundation.css';
-@import url('https://fonts.googleapis.com/css?family=Oswald:300|Work+Sans:400,700&display=swap');
 @import './assets/style.css';
 </style>
