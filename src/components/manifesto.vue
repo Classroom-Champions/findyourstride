@@ -4,7 +4,7 @@
 
 <script>
     export default {
-        name: "02_manifesto"
+        name: "Manifesto"
     }
 </script>
 

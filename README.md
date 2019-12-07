@@ -1,31 +1,7 @@
-# untitled1
+# Classroom Champtions
 
-## Project setup
+## Find Your Stride Campaign
 
-```
-npm install
-```
+We partner classrooms with incredible athletes to teach kids focus, decision making, and belonging so they can shine in and out of school.
 
-### Compiles and hot-reloads for development
-
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-
-```
-npm run build
-```
-
-### Lints and fixes files
-
-```
-npm run lint
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
-test branch
+Visit us at https://www.classroomchampions.org/
