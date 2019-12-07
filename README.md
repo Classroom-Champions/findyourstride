@@ -1,4 +1,4 @@
-# Classroom Champtions
+# Classroom Champions
 
 ## Find Your Stride Campaign
 
