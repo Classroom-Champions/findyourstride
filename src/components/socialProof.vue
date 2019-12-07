@@ -4,7 +4,7 @@
 
 <script>
     export default {
-        name: "05_socalProof"
+        name: "SocalProof"
     }
 </script>
 
