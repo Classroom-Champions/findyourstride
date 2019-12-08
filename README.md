@@ -8,4 +8,10 @@ Visit us at https://www.classroomchampions.org/
 
 ## Deployment
 
+```
+npm install --global surge
+surge login
+```
+
+For more information, visit the link below.
 https://surge.sh/help/getting-started-with-surge
