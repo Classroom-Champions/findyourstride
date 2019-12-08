@@ -39,7 +39,8 @@ export default {
 };
 </script>
 
-<style>
-@import "./assets/foundation.css";
-@import "./assets/style.css";
+<style lang="scss">
+@import 'assets/css/master.scss';
+@import 'assets/css/foundation.scss';
+@import 'assets/css/style.scss';
 </style>
