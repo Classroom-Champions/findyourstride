@@ -12,7 +12,21 @@
 	transform-style: preserve-3d;
 	transition-property: all;
 	transition-duration: 0.8s;
+	z-index: auto;
 }
-.shape-full {
+.shape--size-full .shape {
 	transform: scale3d(100, 100, 1);
+}
+.shape-content {
+	display: none;
+	z-index: 1;
+}
+.shape--size-full .shape-content {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	z-index: 51;
 }
