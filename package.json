@@ -24,11 +24,6 @@
     "surge": "latest",
     "vue-template-compiler": "^2.6.10"
   },
-  "git": {
-    "scripts": {
-      "pre-push": "npm run deploy"
-    }
-  },
   "eslintConfig": {
     "root": true,
     "env": {
