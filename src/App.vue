@@ -2,7 +2,11 @@
   <div id="app">
     <Splash />
     <Navigation />
-    <Button>Register</Button><br />
+    <!-- Link button with default color -->
+    <Button href="https://www.classroomchampions.org/" target="_blank"
+      >Register</Button
+    ><br />
+    <!-- Non-link regular buttons with custom colors -->
     <Button v-bind:style="{ color: '#FFF' }">Register</Button><br />
     <Button v-bind:style="{ backgroundColor: '#F59E87' }">Register</Button
     ><br />
@@ -16,6 +20,7 @@
       >Register</Button
     ><br />
     <Button v-bind:style="{ backgroundColor: '#EBEBEB' }">Register</Button>
+    <!-- End -->
   </div>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-  <component :is="type" :href="href" class="button">
+  <component :is="type" :href="href" :target="target" class="button">
     <slot />
   </component>
 </template>
@@ -8,6 +8,10 @@
 export default {
   props: {
     href: {
+      type: String,
+      default: null
+    },
+    target: {
       type: String,
       default: null
     },
