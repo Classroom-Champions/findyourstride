@@ -6,12 +6,14 @@
 </template>
 
 <script>
-
+import Splash from './components/splash'
+import Navigation from './components/navigation'
 
 export default {
   name: 'app',
   components: {
-
+    Splash,
+    Navigation,
   }
 }
 </script>
