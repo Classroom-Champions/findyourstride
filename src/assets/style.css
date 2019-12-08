@@ -5,3 +5,14 @@
 	color: #2c3e50;
 	margin-top: 60px;
 }
+
+/* Animate Shapes */
+.shape {
+	will-change: transform;
+	transform-style: preserve-3d;
+	transition-property: all;
+	transition-duration: 0.8s;
+}
+.shape-full {
+	transform: scale3d(100, 100, 1);
+}
