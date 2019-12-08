@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <Splash />
+    <Navigation />
   </div>
 </template>
 

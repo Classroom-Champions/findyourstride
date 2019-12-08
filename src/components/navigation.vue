@@ -1,5 +1,5 @@
 <template>
-    <H1>About</H1>
+    <H1>Navigation</H1>
 </template>
 
 <script>
